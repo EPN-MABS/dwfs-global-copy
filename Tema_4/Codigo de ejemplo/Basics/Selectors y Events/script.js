@@ -38,7 +38,7 @@ window.onload = function () {
 
     document.getElementById("articulo").addEventListener('click', (event) => {
             alert("Click en Article")
-            event.stopPropagation();
+           event.stopPropagation();
         }
     );
     //Se traera todos los elementos li que se tengan en el codigo.
